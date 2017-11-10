@@ -23,6 +23,7 @@ function viewCart() {
   let outputArray[]
   for (i=0;i<cart.length;i++){
     let cartInstance=cart[i]
+    let item=object.keys(cartInstance)
   }
 }
 
