@@ -13,6 +13,7 @@ function addToCart(item) {
  const cost=Math.floor(Math.random()*100)+1
  cart.push({[item]: price})
  console.log(`${item} has been added to your cart.`)
+ return cart
 }
 
 function viewCart() {
