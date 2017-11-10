@@ -44,7 +44,7 @@ function total() {
   for (let i=0;i<cart.length;i++){
     let item=Object.keys(cart[i])[0]
     let price=cart[i][item]
-    return sum
+    sum+=price
   }
 }
 
