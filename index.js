@@ -25,10 +25,11 @@ function viewCart() {
     outputArray.push(`${item} at $${price}`)
   }
   if (cart.length===0){
-    return console.log ("Your shopping cart is empty.")
+    return console.log("Your shopping cart is empty.")
   }
   else if (cart.length===2){
     outputArray.join("and")
+    return console.log(`In your cart you have ${outputArray}.`)
   }
 }
 
