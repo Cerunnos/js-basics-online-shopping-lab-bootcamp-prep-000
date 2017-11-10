@@ -30,9 +30,10 @@ function viewCart() {
   switch(outputArray.length){
     case 1:
       break;
-    case 2
+    case 2:
       outputArray=outputArray.join(" and ")
       break;
+    default:
   }
   }
 }
