@@ -17,15 +17,15 @@ function addToCart(item) {
 }
 
 function viewCart() {
+  if (cart.length===0){
+    return console.log("Your shopping cart is empty.")
+  }
   let outputArray=[]
   for (i=0;i<cart.length;i++){
     let cartInstance=cart[i]
     let item=Object.keys(cartInstance)[0]
     let price=cartInstance[item]
     outputArray.push(`${item} at $${price}`)
-  }
-  if (cart.length===0){
-    return console.log("Your shopping cart is empty.")
   }
   else if (cart.length===2){
     outputArray.join("and")
