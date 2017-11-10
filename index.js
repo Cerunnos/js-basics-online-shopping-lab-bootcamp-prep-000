@@ -21,7 +21,7 @@ function viewCart() {
     console.log "Your shopping cart is empty."
   }
   else{
-    
+
   }
 }
 
