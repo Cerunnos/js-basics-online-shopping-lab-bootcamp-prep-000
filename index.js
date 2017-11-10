@@ -28,7 +28,7 @@ function viewCart() {
     outputArray.push(`${item} at $${price}`)
   }
   if (cart.length===2){
-    outputArray.join("and")
+    outputArray=outputArray.join("and")
     return console.log(`In your cart you have ${outputArray}.`)
   }
 }
