@@ -17,9 +17,6 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  if (cart.length===0){
-    return console.log ("Your shopping cart is empty.")
-  }
   let outputArray=[]
   for (i=0;i<cart.length;i++){
     let cartInstance=cart[i]
@@ -27,6 +24,10 @@ function viewCart() {
     let price=cartInstance[item]
     outputArray.push(`${item} at $${price}`)
   }
+  if (cart.length===0){
+    return console.log ("Your shopping cart is empty.")
+  }
+  else if (cart.length===2)
 }
 
 function total() {
