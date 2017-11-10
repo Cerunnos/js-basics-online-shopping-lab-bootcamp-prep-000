@@ -27,7 +27,7 @@ function viewCart() {
     let price=cartInstance[item]
     outputArray.push(`${item} at $${price}`)
   }
-  else if (cart.length===2){
+  if (cart.length===2){
     outputArray.join("and")
     return console.log(`In your cart you have ${outputArray}.`)
   }
