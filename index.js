@@ -31,7 +31,7 @@ function viewCart() {
     case 1:
       break;
     case 2
-      outputArray=outputArray.join(" and ")
+      outputArray=outputArray.join(" and ");
   }
   }
 }
