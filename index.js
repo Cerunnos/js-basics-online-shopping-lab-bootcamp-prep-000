@@ -40,8 +40,9 @@ function viewCart() {
   console.log(`In your cart, you have ${outputArray}.`)
 }
 function total() {
+  let sum=0
   for (let i=0;i<cart.length;i++){
-    
+
   }
 }
 
