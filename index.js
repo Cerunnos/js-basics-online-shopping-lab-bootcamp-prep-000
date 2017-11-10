@@ -51,8 +51,12 @@ function total() {
 
 function removeFromCart(item) {
   let presentInArray=false
-  if(presentInArray===0){
-    console.log("That item is not in your cart.")
+  for(let i=0;i<cart.length;i++){
+    if(cart[i].hasOwnProperty(item)){
+      presentInArray=true
+      cart=cart.slice(0,i).concat(cart.slice(i+1))
+    }
+  }
   }
 }
 
