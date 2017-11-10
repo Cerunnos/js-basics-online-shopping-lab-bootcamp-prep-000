@@ -38,7 +38,6 @@ function viewCart() {
       outputArray=outputArray.join(", ")
   }
   console.log(`In your cart, you have ${outputArray}.`)
-  }
 }
 function total() {
   // write your code here
