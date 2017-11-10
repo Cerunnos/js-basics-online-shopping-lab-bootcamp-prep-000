@@ -40,7 +40,6 @@ function viewCart() {
   console.log(`In your cart, you have ${outputArray}.`)
   }
 }
-
 function total() {
   // write your code here
 }
