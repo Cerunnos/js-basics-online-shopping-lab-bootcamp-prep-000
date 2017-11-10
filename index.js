@@ -21,7 +21,9 @@ function viewCart() {
     return console.log ("Your shopping cart is empty.")
   }
   let outputArray[]
-  for (i=0;i<cart.length;i++)
+  for (i=0;i<cart.length;i++){
+    let cartInstance=cart[i]
+  }
 }
 
 function total() {
