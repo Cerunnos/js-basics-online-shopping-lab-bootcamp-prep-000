@@ -23,7 +23,7 @@ function viewCart() {
   let outputArray[]
   for (i=0;i<cart.length;i++){
     let cartInstance=cart[i]
-    let item=object.keys(cartInstance)
+    let item=Object.keys(cartInstance)
     let price=cartInstance[item]
     outputArray.push(`${item} at $${price}`)
   }
