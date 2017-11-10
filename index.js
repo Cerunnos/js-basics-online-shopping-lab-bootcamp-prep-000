@@ -50,6 +50,7 @@ function total() {
 }
 
 function removeFromCart(item) {
+  let presentInArray=false
   for(let i=0;i<cart.length;i++){
     if(cart[i].hasOwnProperty(item)){
       cart=cart.slice(0,i).concat(cart.slice(i+1))
