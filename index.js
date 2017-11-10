@@ -50,7 +50,10 @@ function total() {
 }
 
 function removeFromCart(item) {
-  if ()
+  let presentInArray=false
+  if(presentInArray===0){
+    console.log("That item is not in your cart.")
+  }
 }
 
 function placeOrder(cardNumber) {
