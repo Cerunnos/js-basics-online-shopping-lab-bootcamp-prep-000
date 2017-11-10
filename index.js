@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- var obj={}
+ let obj={}
 obj[`${item}`]=Math.random
 cart.push(obj)
 }
