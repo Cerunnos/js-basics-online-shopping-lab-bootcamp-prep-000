@@ -21,7 +21,7 @@ function viewCart() {
     return console.log("Your shopping cart is empty.")
   }
   let outputArray=[]
-  for (i=0;i<cart.length;i++){
+  for (let i=0;i<cart.length;i++){
     let cartInstance=cart[i]
     let item=Object.keys(cartInstance)[0]
     let price=cartInstance[item]
