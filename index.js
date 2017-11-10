@@ -20,11 +20,6 @@ function viewCart() {
   if (cart.length===0){
     return console.log ("Your shopping cart is empty.")
   }
-  else if(cart.length===1){
-
-  }
-
-  }
 }
 
 function total() {
