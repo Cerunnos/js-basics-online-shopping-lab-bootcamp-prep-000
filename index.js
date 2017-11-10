@@ -34,6 +34,7 @@ function viewCart() {
       outputArray=outputArray.join(" and ")
       break;
     default:
+      outputArray[cart.length-1]="and ".concat(outputArray[cart.length-1])
   }
   }
 }
