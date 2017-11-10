@@ -27,7 +27,9 @@ function viewCart() {
   if (cart.length===0){
     return console.log ("Your shopping cart is empty.")
   }
-  else if (cart.length===2)
+  else if (cart.length===2){
+    outputArray.join("and")
+  }
 }
 
 function total() {
