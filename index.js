@@ -37,6 +37,7 @@ function viewCart() {
       outputArray[cart.length-1]="and ".concat(outputArray[cart.length-1])
       outputArray=outputArray.join(", ")
   }
+  console.log(`In your cart, you have ${outputArray}.`)
   }
 }
 
