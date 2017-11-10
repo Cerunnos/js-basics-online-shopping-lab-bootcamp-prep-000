@@ -46,6 +46,7 @@ function total() {
     let price=cart[i][item]
     sum+=price
   }
+  return sum
 }
 
 function removeFromCart(item) {
