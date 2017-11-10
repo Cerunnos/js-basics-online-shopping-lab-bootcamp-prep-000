@@ -40,7 +40,7 @@ function viewCart() {
   console.log(`In your cart, you have ${outputArray}.`)
 }
 function total() {
-  
+  for (let i=0;i<cart.length;i++)
 }
 
 function removeFromCart(item) {
